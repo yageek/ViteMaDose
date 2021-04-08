@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56741FCF261E3FB000586708 /* ListDepartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56741FCE261E3FAF00586708 /* ListDepartment.swift */; };
+		56741FD4261E42DC00586708 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56741FD3261E42DC00586708 /* Button.swift */; };
+		88242FCD261DF54F00FA9C50 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88242FCC261DF54F00FA9C50 /* Network.swift */; };
+		88242FD1261DF5EC00FA9C50 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88242FD0261DF5EC00FA9C50 /* Resources.swift */; };
+		88242FD5261DF93100FA9C50 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88242FD4261DF93100FA9C50 /* HomeViewModel.swift */; };
+		88986348261DF12600451F5C /* ViteMaDoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88986335261DF12400451F5C /* ViteMaDoseApp.swift */; };
+		88986349261DF12600451F5C /* ViteMaDoseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88986335261DF12400451F5C /* ViteMaDoseApp.swift */; };
+		8898634A261DF12600451F5C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88986336261DF12400451F5C /* HomeView.swift */; };
+		8898634B261DF12600451F5C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88986336261DF12400451F5C /* HomeView.swift */; };
+		8898634C261DF12600451F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88986337261DF12600451F5C /* Assets.xcassets */; };
+		8898634D261DF12600451F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88986337261DF12600451F5C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56741FCE261E3FAF00586708 /* ListDepartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDepartment.swift; sourceTree = "<group>"; };
+		56741FD3261E42DC00586708 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		88242FCC261DF54F00FA9C50 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		88242FD0261DF5EC00FA9C50 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		88242FD4261DF93100FA9C50 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		88986335261DF12400451F5C /* ViteMaDoseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViteMaDoseApp.swift; sourceTree = "<group>"; };
+		88986336261DF12400451F5C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		88986337261DF12600451F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8898633C261DF12600451F5C /* ViteMaDose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViteMaDose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8898633F261DF12600451F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88986344261DF12600451F5C /* ViteMaDose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViteMaDose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88986346261DF12600451F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88986347261DF12600451F5C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88986339261DF12600451F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88986341261DF12600451F5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56741FD2261E42D100586708 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				56741FD3261E42DC00586708 /* Button.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		88242FC8261DF53A00FA9C50 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				56741FD2261E42D100586708 /* Modifier */,
+				88986336261DF12400451F5C /* HomeView.swift */,
+				88242FD4261DF93100FA9C50 /* HomeViewModel.swift */,
+				56741FCE261E3FAF00586708 /* ListDepartment.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		88242FCB261DF54200FA9C50 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				88242FCC261DF54F00FA9C50 /* Network.swift */,
+				88242FD0261DF5EC00FA9C50 /* Resources.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8898632F261DF12400451F5C = {
+			isa = PBXGroup;
+			children = (
+				88986334261DF12400451F5C /* Shared */,
+				8898633E261DF12600451F5C /* iOS */,
+				88986345261DF12600451F5C /* macOS */,
+				8898633D261DF12600451F5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88986334261DF12400451F5C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				88242FCB261DF54200FA9C50 /* Network */,
+				88986335261DF12400451F5C /* ViteMaDoseApp.swift */,
+				88242FC8261DF53A00FA9C50 /* UI */,
+				88986337261DF12600451F5C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8898633D261DF12600451F5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8898633C261DF12600451F5C /* ViteMaDose.app */,
+				88986344261DF12600451F5C /* ViteMaDose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8898633E261DF12600451F5C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8898633F261DF12600451F5C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		88986345261DF12600451F5C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				88986346261DF12600451F5C /* Info.plist */,
+				88986347261DF12600451F5C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8898633B261DF12600451F5C /* ViteMaDose (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88986350261DF12600451F5C /* Build configuration list for PBXNativeTarget "ViteMaDose (iOS)" */;
+			buildPhases = (
+				88986338261DF12600451F5C /* Sources */,
+				88986339261DF12600451F5C /* Frameworks */,
+				8898633A261DF12600451F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViteMaDose (iOS)";
+			productName = "ViteMaDose (iOS)";
+			productReference = 8898633C261DF12600451F5C /* ViteMaDose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88986343261DF12600451F5C /* ViteMaDose (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88986353261DF12600451F5C /* Build configuration list for PBXNativeTarget "ViteMaDose (macOS)" */;
+			buildPhases = (
+				88986340261DF12600451F5C /* Sources */,
+				88986341261DF12600451F5C /* Frameworks */,
+				88986342261DF12600451F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViteMaDose (macOS)";
+			productName = "ViteMaDose (macOS)";
+			productReference = 88986344261DF12600451F5C /* ViteMaDose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88986330261DF12400451F5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8898633B261DF12600451F5C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					88986343261DF12600451F5C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 88986333261DF12400451F5C /* Build configuration list for PBXProject "ViteMaDose" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8898632F261DF12400451F5C;
+			productRefGroup = 8898633D261DF12600451F5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8898633B261DF12600451F5C /* ViteMaDose (iOS) */,
+				88986343261DF12600451F5C /* ViteMaDose (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8898633A261DF12600451F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8898634C261DF12600451F5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88986342261DF12600451F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8898634D261DF12600451F5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88986338261DF12600451F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56741FD4261E42DC00586708 /* Button.swift in Sources */,
+				8898634A261DF12600451F5C /* HomeView.swift in Sources */,
+				88242FD1261DF5EC00FA9C50 /* Resources.swift in Sources */,
+				88986348261DF12600451F5C /* ViteMaDoseApp.swift in Sources */,
+				56741FCF261E3FB000586708 /* ListDepartment.swift in Sources */,
+				88242FD5261DF93100FA9C50 /* HomeViewModel.swift in Sources */,
+				88242FCD261DF54F00FA9C50 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88986340261DF12600451F5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8898634B261DF12600451F5C /* HomeView.swift in Sources */,
+				88986349261DF12600451F5C /* ViteMaDoseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8898634E261DF12600451F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8898634F261DF12600451F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		88986351261DF12600451F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samdoc.ViteMaDose;
+				PRODUCT_NAME = ViteMaDose;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88986352261DF12600451F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.samdoc.ViteMaDose;
+				PRODUCT_NAME = ViteMaDose;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88986354261DF12600451F5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samdoc.ViteMaDose;
+				PRODUCT_NAME = ViteMaDose;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		88986355261DF12600451F5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samdoc.ViteMaDose;
+				PRODUCT_NAME = ViteMaDose;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88986333261DF12400451F5C /* Build configuration list for PBXProject "ViteMaDose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8898634E261DF12600451F5C /* Debug */,
+				8898634F261DF12600451F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88986350261DF12600451F5C /* Build configuration list for PBXNativeTarget "ViteMaDose (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88986351261DF12600451F5C /* Debug */,
+				88986352261DF12600451F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88986353261DF12600451F5C /* Build configuration list for PBXNativeTarget "ViteMaDose (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88986354261DF12600451F5C /* Debug */,
+				88986355261DF12600451F5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88986330261DF12400451F5C /* Project object */;
+}
